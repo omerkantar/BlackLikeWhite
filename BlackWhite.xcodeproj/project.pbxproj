@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF39E38819B44EE9009BA787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF39E38719B44EE9009BA787 /* Foundation.framework */; };
+		CF39E38A19B44EE9009BA787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF39E38919B44EE9009BA787 /* CoreGraphics.framework */; };
+		CF39E38C19B44EE9009BA787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF39E38B19B44EE9009BA787 /* UIKit.framework */; };
+		CF39E39219B44EE9009BA787 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF39E39019B44EE9009BA787 /* InfoPlist.strings */; };
+		CF39E39419B44EE9009BA787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39E39319B44EE9009BA787 /* main.m */; };
+		CF39E39819B44EE9009BA787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39E39719B44EE9009BA787 /* AppDelegate.m */; };
+		CF39E39A19B44EE9009BA787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF39E39919B44EE9009BA787 /* Images.xcassets */; };
+		CF39E3A119B44EE9009BA787 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF39E3A019B44EE9009BA787 /* XCTest.framework */; };
+		CF39E3A219B44EE9009BA787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF39E38719B44EE9009BA787 /* Foundation.framework */; };
+		CF39E3A319B44EE9009BA787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF39E38B19B44EE9009BA787 /* UIKit.framework */; };
+		CF39E3AB19B44EE9009BA787 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF39E3A919B44EE9009BA787 /* InfoPlist.strings */; };
+		CF39E3AD19B44EE9009BA787 /* BWhiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39E3AC19B44EE9009BA787 /* BWhiteTests.m */; };
+		CF39E3BB19B44F67009BA787 /* BWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39E3B919B44F67009BA787 /* BWMainViewController.m */; };
+		CF39E3BC19B44F67009BA787 /* BWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF39E3BA19B44F67009BA787 /* BWMainViewController.xib */; };
+		CF39E3C419B45EF1009BA787 /* BWElements.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39E3C319B45EF1009BA787 /* BWElements.m */; };
+		CF39E40919B4B0D3009BA787 /* BWStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39E40719B4B0D3009BA787 /* BWStartViewController.m */; };
+		CF39E40A19B4B0D3009BA787 /* BWStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF39E40819B4B0D3009BA787 /* BWStartViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF39E3A419B44EE9009BA787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF39E37C19B44EE9009BA787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF39E38319B44EE9009BA787;
+			remoteInfo = BWhite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF39E38419B44EE9009BA787 /* BlackWhite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackWhite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF39E38719B44EE9009BA787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF39E38919B44EE9009BA787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF39E38B19B44EE9009BA787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF39E38F19B44EE9009BA787 /* BlackWhite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackWhite-Info.plist"; sourceTree = "<group>"; };
+		CF39E39119B44EE9009BA787 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF39E39319B44EE9009BA787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF39E39519B44EE9009BA787 /* BlackWhite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlackWhite-Prefix.pch"; sourceTree = "<group>"; };
+		CF39E39619B44EE9009BA787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF39E39719B44EE9009BA787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF39E39919B44EE9009BA787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF39E39F19B44EE9009BA787 /* BlackWhiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackWhiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF39E3A019B44EE9009BA787 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF39E3A819B44EE9009BA787 /* BlackWhiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackWhiteTests-Info.plist"; sourceTree = "<group>"; };
+		CF39E3AA19B44EE9009BA787 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF39E3AC19B44EE9009BA787 /* BWhiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWhiteTests.m; sourceTree = "<group>"; };
+		CF39E3B819B44F67009BA787 /* BWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMainViewController.h; sourceTree = "<group>"; };
+		CF39E3B919B44F67009BA787 /* BWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMainViewController.m; sourceTree = "<group>"; };
+		CF39E3BA19B44F67009BA787 /* BWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWMainViewController.xib; sourceTree = "<group>"; };
+		CF39E3C219B45EF1009BA787 /* BWElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWElements.h; sourceTree = "<group>"; };
+		CF39E3C319B45EF1009BA787 /* BWElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWElements.m; sourceTree = "<group>"; };
+		CF39E40619B4B0D3009BA787 /* BWStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWStartViewController.h; sourceTree = "<group>"; };
+		CF39E40719B4B0D3009BA787 /* BWStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWStartViewController.m; sourceTree = "<group>"; };
+		CF39E40819B4B0D3009BA787 /* BWStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWStartViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF39E38119B44EE9009BA787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39E38A19B44EE9009BA787 /* CoreGraphics.framework in Frameworks */,
+				CF39E38C19B44EE9009BA787 /* UIKit.framework in Frameworks */,
+				CF39E38819B44EE9009BA787 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF39E39C19B44EE9009BA787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39E3A119B44EE9009BA787 /* XCTest.framework in Frameworks */,
+				CF39E3A319B44EE9009BA787 /* UIKit.framework in Frameworks */,
+				CF39E3A219B44EE9009BA787 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF39E37B19B44EE9009BA787 = {
+			isa = PBXGroup;
+			children = (
+				CF39E38D19B44EE9009BA787 /* BWhite */,
+				CF39E3A619B44EE9009BA787 /* BWhiteTests */,
+				CF39E38619B44EE9009BA787 /* Frameworks */,
+				CF39E38519B44EE9009BA787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF39E38519B44EE9009BA787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E38419B44EE9009BA787 /* BlackWhite.app */,
+				CF39E39F19B44EE9009BA787 /* BlackWhiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF39E38619B44EE9009BA787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E38719B44EE9009BA787 /* Foundation.framework */,
+				CF39E38919B44EE9009BA787 /* CoreGraphics.framework */,
+				CF39E38B19B44EE9009BA787 /* UIKit.framework */,
+				CF39E3A019B44EE9009BA787 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF39E38D19B44EE9009BA787 /* BWhite */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E3B719B44F2E009BA787 /* Controller */,
+				CF39E3B619B44F1E009BA787 /* Model */,
+				CF39E39619B44EE9009BA787 /* AppDelegate.h */,
+				CF39E39719B44EE9009BA787 /* AppDelegate.m */,
+				CF39E39919B44EE9009BA787 /* Images.xcassets */,
+				CF39E38E19B44EE9009BA787 /* Supporting Files */,
+			);
+			path = BWhite;
+			sourceTree = "<group>";
+		};
+		CF39E38E19B44EE9009BA787 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E38F19B44EE9009BA787 /* BlackWhite-Info.plist */,
+				CF39E39019B44EE9009BA787 /* InfoPlist.strings */,
+				CF39E39319B44EE9009BA787 /* main.m */,
+				CF39E39519B44EE9009BA787 /* BlackWhite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF39E3A619B44EE9009BA787 /* BWhiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E3AC19B44EE9009BA787 /* BWhiteTests.m */,
+				CF39E3A719B44EE9009BA787 /* Supporting Files */,
+			);
+			path = BWhiteTests;
+			sourceTree = "<group>";
+		};
+		CF39E3A719B44EE9009BA787 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E3A819B44EE9009BA787 /* BlackWhiteTests-Info.plist */,
+				CF39E3A919B44EE9009BA787 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF39E3B619B44F1E009BA787 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E3C219B45EF1009BA787 /* BWElements.h */,
+				CF39E3C319B45EF1009BA787 /* BWElements.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF39E3B719B44F2E009BA787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E3B819B44F67009BA787 /* BWMainViewController.h */,
+				CF39E3B919B44F67009BA787 /* BWMainViewController.m */,
+				CF39E3BA19B44F67009BA787 /* BWMainViewController.xib */,
+				CF39E40619B4B0D3009BA787 /* BWStartViewController.h */,
+				CF39E40719B4B0D3009BA787 /* BWStartViewController.m */,
+				CF39E40819B4B0D3009BA787 /* BWStartViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF39E38319B44EE9009BA787 /* BlackWhite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF39E3B019B44EE9009BA787 /* Build configuration list for PBXNativeTarget "BlackWhite" */;
+			buildPhases = (
+				CF39E38019B44EE9009BA787 /* Sources */,
+				CF39E38119B44EE9009BA787 /* Frameworks */,
+				CF39E38219B44EE9009BA787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackWhite;
+			productName = BWhite;
+			productReference = CF39E38419B44EE9009BA787 /* BlackWhite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF39E39E19B44EE9009BA787 /* BlackWhiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF39E3B319B44EE9009BA787 /* Build configuration list for PBXNativeTarget "BlackWhiteTests" */;
+			buildPhases = (
+				CF39E39B19B44EE9009BA787 /* Sources */,
+				CF39E39C19B44EE9009BA787 /* Frameworks */,
+				CF39E39D19B44EE9009BA787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF39E3A519B44EE9009BA787 /* PBXTargetDependency */,
+			);
+			name = BlackWhiteTests;
+			productName = BWhiteTests;
+			productReference = CF39E39F19B44EE9009BA787 /* BlackWhiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF39E37C19B44EE9009BA787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobilike;
+				TargetAttributes = {
+					CF39E39E19B44EE9009BA787 = {
+						TestTargetID = CF39E38319B44EE9009BA787;
+					};
+				};
+			};
+			buildConfigurationList = CF39E37F19B44EE9009BA787 /* Build configuration list for PBXProject "BlackWhite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF39E37B19B44EE9009BA787;
+			productRefGroup = CF39E38519B44EE9009BA787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF39E38319B44EE9009BA787 /* BlackWhite */,
+				CF39E39E19B44EE9009BA787 /* BlackWhiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF39E38219B44EE9009BA787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39E40A19B4B0D3009BA787 /* BWStartViewController.xib in Resources */,
+				CF39E39219B44EE9009BA787 /* InfoPlist.strings in Resources */,
+				CF39E39A19B44EE9009BA787 /* Images.xcassets in Resources */,
+				CF39E3BC19B44F67009BA787 /* BWMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF39E39D19B44EE9009BA787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39E3AB19B44EE9009BA787 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF39E38019B44EE9009BA787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39E39819B44EE9009BA787 /* AppDelegate.m in Sources */,
+				CF39E40919B4B0D3009BA787 /* BWStartViewController.m in Sources */,
+				CF39E3BB19B44F67009BA787 /* BWMainViewController.m in Sources */,
+				CF39E3C419B45EF1009BA787 /* BWElements.m in Sources */,
+				CF39E39419B44EE9009BA787 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF39E39B19B44EE9009BA787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF39E3AD19B44EE9009BA787 /* BWhiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF39E3A519B44EE9009BA787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF39E38319B44EE9009BA787 /* BlackWhite */;
+			targetProxy = CF39E3A419B44EE9009BA787 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF39E39019B44EE9009BA787 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF39E39119B44EE9009BA787 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF39E3A919B44EE9009BA787 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF39E3AA19B44EE9009BA787 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF39E3AE19B44EE9009BA787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF39E3AF19B44EE9009BA787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF39E3B119B44EE9009BA787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWhite/BlackWhite-Prefix.pch";
+				INFOPLIST_FILE = "BWhite/BlackWhite-Info.plist";
+				PRODUCT_NAME = BlackWhite;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF39E3B219B44EE9009BA787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWhite/BlackWhite-Prefix.pch";
+				INFOPLIST_FILE = "BWhite/BlackWhite-Info.plist";
+				PRODUCT_NAME = BlackWhite;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF39E3B419B44EE9009BA787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BWhite.app/BWhite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWhite/BWhite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BWhiteTests/BlackWhiteTests-Info.plist";
+				PRODUCT_NAME = BlackWhiteTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF39E3B519B44EE9009BA787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BWhite.app/BWhite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWhite/BWhite-Prefix.pch";
+				INFOPLIST_FILE = "BWhiteTests/BlackWhiteTests-Info.plist";
+				PRODUCT_NAME = BlackWhiteTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF39E37F19B44EE9009BA787 /* Build configuration list for PBXProject "BlackWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF39E3AE19B44EE9009BA787 /* Debug */,
+				CF39E3AF19B44EE9009BA787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF39E3B019B44EE9009BA787 /* Build configuration list for PBXNativeTarget "BlackWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF39E3B119B44EE9009BA787 /* Debug */,
+				CF39E3B219B44EE9009BA787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF39E3B319B44EE9009BA787 /* Build configuration list for PBXNativeTarget "BlackWhiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF39E3B419B44EE9009BA787 /* Debug */,
+				CF39E3B519B44EE9009BA787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF39E37C19B44EE9009BA787 /* Project object */;
+}

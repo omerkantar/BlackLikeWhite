@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC52F25A-E79E-41D0-B6E9-A33EEC1A9F2C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlackWhite</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23035B50-143C-4932-8A04-31B84F9E059A</key>
+		<string>https://github.com/omerkantar/BlackWhite.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlackWhite.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23035B50-143C-4932-8A04-31B84F9E059A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/omerkantar/BlackWhite.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23035B50-143C-4932-8A04-31B84F9E059A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23035B50-143C-4932-8A04-31B84F9E059A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BWhite</string>
+		</dict>
+	</array>
+</dict>
+</plist>
